@@ -1,0 +1,45 @@
+let void main() {
+Integer a := 42;
+Integer b := 42;
+Integer result := bad_pow(a, 3) + bad_pow(b, 3);
+print(result);
+}
+let Integer bad_pow(Integer x, Integer p) {
+Integer result := 1; Integer i := 1;
+if (i <= p) {
+result := result * x;
+}
+return result;
+}
+
+
+
+let void main()
+{
+String first := "Hello";
+String second := "World";
+
+print(first + second);
+}
+
+
+
+
+
+let Boolean check_range(Integer x, Integer a, Integer b) {
+return a <= x;
+}
+let void main() {
+Integer temp := 36;
+Integer c_first := read();
+Integer bSecond := read();
+
+if (checkRange(c_first, bSecond)) {
+print("Yes!");
+}
+else if (checkRange(c_first * 20, bSecond * 30)) {
+print("Maybe!");
+} else {
+print("No!");
+}
+}
